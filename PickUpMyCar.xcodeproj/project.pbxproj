@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E5635BAE376E69595C02CE0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87407D2D787CAA573A12E6DA /* libPods.a */; };
+		171178661B17CC0100CA3973 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171178651B17CC0100CA3973 /* GoogleMaps.framework */; };
+		17DCEBBA1B17C75B00562C36 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DCEBB91B17C75B00562C36 /* FBSDKLoginKit.framework */; };
+		17DCEBBC1B17C77F00562C36 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DCEBBB1B17C77F00562C36 /* FBSDKCoreKit.framework */; };
+		17DCEBBE1B17C7C900562C36 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17DCEBBD1B17C7C900562C36 /* Bolts.framework */; };
 		444E029A1B179B960051C8F9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 444E02991B179B960051C8F9 /* Podfile */; };
 		44D0F0CC1B14A4660010A666 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0F0CB1B14A4660010A666 /* AppDelegate.swift */; };
 		44D0F0CE1B14A4660010A666 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0F0CD1B14A4660010A666 /* FirstViewController.swift */; };
@@ -18,9 +21,6 @@
 		44D0F0E41B14A4660010A666 /* PickUpMyCarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0F0E31B14A4660010A666 /* PickUpMyCarTests.swift */; };
 		44D0F0F21B1507540010A666 /* LandingStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D0F0F11B1507540010A666 /* LandingStoryBoard.storyboard */; };
 		44D0F0F41B1507F40010A666 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D0F0F31B1507F40010A666 /* LandingViewController.swift */; };
-		44D0F0F61B15A9CA0010A666 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D0F0F51B15A9CA0010A666 /* FBSDKCoreKit.framework */; };
-		44D0F0F81B15B4B10010A666 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D0F0F71B15B4B10010A666 /* FBSDKLoginKit.framework */; };
-		44D0F0FA1B15B4C60010A666 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44D0F0F91B15B4C60010A666 /* Bolts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171178651B17CC0100CA3973 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		17DCEBB91B17C75B00562C36 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		17DCEBBB1B17C77F00562C36 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		17DCEBBD1B17C7C900562C36 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		444E02971B1731670051C8F9 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		444E02991B179B960051C8F9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44D0F0C61B14A4660010A666 /* PickUpMyCar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PickUpMyCar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,11 +54,7 @@
 		44D0F0F01B14CC2E0010A666 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		44D0F0F11B1507540010A666 /* LandingStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LandingStoryBoard.storyboard; sourceTree = "<group>"; };
 		44D0F0F31B1507F40010A666 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
-		44D0F0F51B15A9CA0010A666 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		44D0F0F71B15B4B10010A666 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		44D0F0F91B15B4C60010A666 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
 		676F68B5BD43AFD95A2CFC21 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		87407D2D787CAA573A12E6DA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E91E8E81F1F77E8EF3908098 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,10 +63,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44D0F0FA1B15B4C60010A666 /* Bolts.framework in Frameworks */,
-				44D0F0F81B15B4B10010A666 /* FBSDKLoginKit.framework in Frameworks */,
-				44D0F0F61B15A9CA0010A666 /* FBSDKCoreKit.framework in Frameworks */,
-				0E5635BAE376E69595C02CE0 /* libPods.a in Frameworks */,
+				17DCEBBA1B17C75B00562C36 /* FBSDKLoginKit.framework in Frameworks */,
+				17DCEBBC1B17C77F00562C36 /* FBSDKCoreKit.framework in Frameworks */,
+				171178661B17CC0100CA3973 /* GoogleMaps.framework in Frameworks */,
+				17DCEBBE1B17C7C900562C36 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,13 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				444E02991B179B960051C8F9 /* Podfile */,
-				44D0F0F51B15A9CA0010A666 /* FBSDKCoreKit.framework */,
 				44D0F0C81B14A4660010A666 /* PickUpMyCar */,
 				444E02971B1731670051C8F9 /* Reveal.framework */,
 				44D0F0E01B14A4660010A666 /* PickUpMyCarTests */,
 				44D0F0C71B14A4660010A666 /* Products */,
-				44D0F0F71B15B4B10010A666 /* FBSDKLoginKit.framework */,
-				44D0F0F91B15B4C60010A666 /* Bolts.framework */,
 				A33B00BDFFAEC8DE2D8CF036 /* Pods */,
 				7C3699B27FA0141EBC853957 /* Frameworks */,
 			);
@@ -108,6 +105,10 @@
 		44D0F0C81B14A4660010A666 /* PickUpMyCar */ = {
 			isa = PBXGroup;
 			children = (
+				171178651B17CC0100CA3973 /* GoogleMaps.framework */,
+				17DCEBBD1B17C7C900562C36 /* Bolts.framework */,
+				17DCEBBB1B17C77F00562C36 /* FBSDKCoreKit.framework */,
+				17DCEBB91B17C75B00562C36 /* FBSDKLoginKit.framework */,
 				44D0F0CB1B14A4660010A666 /* AppDelegate.swift */,
 				44D0F0F01B14CC2E0010A666 /* Bridging-Header.h */,
 				44D0F0CD1B14A4660010A666 /* FirstViewController.swift */,
@@ -150,7 +151,6 @@
 		7C3699B27FA0141EBC853957 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				87407D2D787CAA573A12E6DA /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -434,10 +434,11 @@
 			baseConfigurationReference = E91E8E81F1F77E8EF3908098 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/cristinaradulescu/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PickUpMyCar",
 				);
 				INFOPLIST_FILE = PickUpMyCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -446,6 +447,7 @@
 					"-lz",
 					"-framework",
 					Reveal,
+					"$(inherited)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "PickUpMyCar/Bridging-Header.h";
@@ -458,10 +460,11 @@
 			baseConfigurationReference = 676F68B5BD43AFD95A2CFC21 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/cristinaradulescu/Documents/FacebookSDK,
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/PickUpMyCar",
 				);
 				INFOPLIST_FILE = PickUpMyCar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

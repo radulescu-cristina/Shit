@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="NGb-sA-wWA">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <scenes>
+        <!--Landing View Controller-->
+        <scene sceneID="3t5-3U-eka">
+            <objects>
+                <viewController id="NGb-sA-wWA" customClass="LandingViewController" customModule="PickUpMyCar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bMe-Ok-VHU"/>
+                        <viewControllerLayoutGuide type="bottom" id="DKh-J8-OeU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="agS-4s-8lG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Vh-gc-CyD" customClass="FBSDKLoginButton">
+                                <rect key="frame" x="245" y="285" width="111" height="30"/>
+                                <state key="normal" title="Facebook Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="9Vh-gc-CyD" secondAttribute="centerX" constant="-0.5" id="1VR-Se-BWt"/>
+                            <constraint firstAttribute="centerY" secondItem="9Vh-gc-CyD" secondAttribute="centerY" id="pyU-Vy-REb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="facebookLogin" destination="pyU-Vy-REb" id="gUL-A4-QZo"/>
+                        <outlet property="facebookLoginButton" destination="9Vh-gc-CyD" id="aCo-n0-BVC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34z-Yz-7VB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="457" y="418"/>
+        </scene>
+    </scenes>
+</document>
